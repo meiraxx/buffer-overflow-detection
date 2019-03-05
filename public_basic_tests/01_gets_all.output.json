@@ -1,0 +1,40 @@
+[
+    {
+        "overflown_address": "rbp-0x10",
+        "fnname": "gets",
+        "vuln_function": "main",
+        "address": "4004f2",
+        "vulnerability": "INVALIDACCS",
+        "overflow_var": "buf1"
+    },
+    {
+        "fnname": "gets",
+        "vuln_function": "main",
+        "overflown_var": "control",
+        "vulnerability": "VAROVERFLOW",
+        "overflow_var": "buf1",
+        "address": "4004f2"
+    },
+    {
+        "vulnerability": "RBPOVERFLOW",
+        "overflow_var": "buf1",
+        "vuln_function": "main",
+        "address": "4004f2",
+        "fnname": "gets"
+    },
+    {
+        "vulnerability": "RETOVERFLOW",
+        "overflow_var": "buf1",
+        "vuln_function": "main",
+        "address": "4004f2",
+        "fnname": "gets"
+    },
+    {
+        "overflown_address": "rbp+0x10",
+        "fnname": "gets",
+        "vuln_function": "main",
+        "address": "4004f2",
+        "vulnerability": "SCORRUPTION",
+        "overflow_var": "buf1"
+    }
+]

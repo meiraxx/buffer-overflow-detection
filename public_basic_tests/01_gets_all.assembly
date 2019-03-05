@@ -1,0 +1,13 @@
+<main>
+4004d7:	push   rbp
+4004d8:	mov    rbp,rsp
+4004db:	sub    rsp,0x50
+4004df:	mov    DWORD PTR [rbp-0x4],0x1
+4004e6:	lea    rax,[rbp-0x50]
+4004ea:	mov    rdi,rax
+4004ed:	mov    eax,0x0
+4004f2:	call   4003f0 <gets@plt>
+4004f7:	mov    eax,0x0
+4004fc:	leave
+4004fd:	ret
+

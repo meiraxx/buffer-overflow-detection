@@ -1,0 +1,18 @@
+[
+    {
+        "vulnerability": "VAROVERFLOW",
+        "vuln_function": "main",
+        "address": "400589",
+        "fnname": "fgets",
+        "overflow_var": "buf1",
+        "overflown_var": "buf2"
+    },
+    {
+        "vulnerability": "INVALIDACCS",
+        "vuln_function": "main",
+        "address": "40059c",
+        "fnname": "strcpy",
+        "overflow_var": "buf3",
+        "overflown_address": "rbp-0x10"
+    }
+]

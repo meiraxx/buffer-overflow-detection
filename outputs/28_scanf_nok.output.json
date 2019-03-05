@@ -1,0 +1,40 @@
+[
+    {
+        "vulnerability": "INVALIDACCS",
+        "vuln_function": "main",
+        "address": "400529",
+        "fnname": "__isoc99_scanf",
+        "overflow_var": "buf1",
+        "overflown_address": "rbp-0x10"
+    },
+    {
+        "vulnerability": "VAROVERFLOW",
+        "vuln_function": "main",
+        "address": "400529",
+        "fnname": "__isoc99_scanf",
+        "overflow_var": "buf1",
+        "overflown_var": "control"
+    },
+    {
+        "vulnerability": "RBPOVERFLOW",
+        "vuln_function": "main",
+        "address": "400529",
+        "fnname": "__isoc99_scanf",
+        "overflow_var": "buf1"
+    },
+    {
+        "vulnerability": "RETOVERFLOW",
+        "vuln_function": "main",
+        "address": "400529",
+        "fnname": "__isoc99_scanf",
+        "overflow_var": "buf1"
+    },
+    {
+        "vulnerability": "SCORRUPTION",
+        "vuln_function": "main",
+        "address": "400529",
+        "fnname": "__isoc99_scanf",
+        "overflow_var": "buf1",
+        "overflown_address": "rbp+0x10"
+    }
+]

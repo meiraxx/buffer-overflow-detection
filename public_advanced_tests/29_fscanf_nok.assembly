@@ -1,0 +1,15 @@
+<main>
+400547:	push   rbp
+400548:	mov    rbp,rsp
+40054b:	sub    rsp,0x40
+40054f:	mov    DWORD PTR [rbp-0x4],0x1d
+400556:	mov    rax,QWORD PTR [rip+0x200ad3]        # 601030 <stdin@@GLIBC_2.2.5>
+40055d:	lea    rdx,[rbp-0x40]
+400561:	lea    rsi,[rip+0x9c]        # 400604 <_IO_stdin_used+0x4>
+400568:	mov    rdi,rax
+40056b:	mov    eax,0x0
+400570:	call   400460 <__isoc99_fscanf@plt>
+400575:	mov    eax,0x0
+40057a:	leave
+40057b:	ret
+

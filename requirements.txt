@@ -1,0 +1,8 @@
+tabulate
+collections
+
+# --- Native Python Dependencies ---
+#re
+#json
+#os
+#sys

@@ -1,0 +1,62 @@
+[
+    {
+        "vulnerability": "INVALIDACCS",
+        "vuln_function": "main",
+        "address": "4005ab",
+        "fnname": "fgets",
+        "overflow_var": "buf",
+        "overflown_address": "rbp-0x10"
+    },
+    {
+        "vulnerability": "VAROVERFLOW",
+        "vuln_function": "main",
+        "address": "4005ab",
+        "fnname": "fgets",
+        "overflow_var": "buf",
+        "overflown_var": "control"
+    },
+    {
+        "vulnerability": "RBPOVERFLOW",
+        "vuln_function": "main",
+        "address": "4005ab",
+        "fnname": "fgets",
+        "overflow_var": "buf"
+    },
+    {
+        "vulnerability": "RETOVERFLOW",
+        "vuln_function": "main",
+        "address": "4005ab",
+        "fnname": "fgets",
+        "overflow_var": "buf"
+    },
+    {
+        "vulnerability": "SCORRUPTION",
+        "vuln_function": "main",
+        "address": "4005ab",
+        "fnname": "fgets",
+        "overflow_var": "buf",
+        "overflown_address": "rbp+0x10"
+    },
+    {
+        "vulnerability": "RBPOVERFLOW",
+        "vuln_function": "fun1",
+        "address": "400581",
+        "fnname": "strcpy",
+        "overflow_var": "buf2"
+    },
+    {
+        "vulnerability": "RETOVERFLOW",
+        "vuln_function": "fun1",
+        "address": "400581",
+        "fnname": "strcpy",
+        "overflow_var": "buf2"
+    },
+    {
+        "vulnerability": "SCORRUPTION",
+        "vuln_function": "fun1",
+        "address": "400581",
+        "fnname": "strcpy",
+        "overflow_var": "buf2",
+        "overflown_address": "rbp+0x10"
+    }
+]

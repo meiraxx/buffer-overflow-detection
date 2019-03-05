@@ -1,0 +1,18 @@
+[
+    {
+        "fnname": "strncpy",
+        "vuln_function": "main",
+        "overflown_var": "control",
+        "vulnerability": "VAROVERFLOW",
+        "overflow_var": "buf2",
+        "address": "4005a1"
+    },
+    {
+        "overflown_address": "rbp-0x10",
+        "fnname": "strncpy",
+        "vuln_function": "main",
+        "address": "4005a1",
+        "vulnerability": "INVALIDACCS",
+        "overflow_var": "buf2"
+    }
+]

@@ -1,0 +1,270 @@
+{
+    "main": {
+        "Ninstructions": 27,
+        "variables": [
+            {
+                "bytes": 4,
+                "type": "int",
+                "name": "control",
+                "address": "rbp-0x4"
+            },
+            {
+                "bytes": 32,
+                "type": "buffer",
+                "name": "buf1",
+                "address": "rbp-0x70"
+            },
+            {
+                "bytes": 32,
+                "type": "buffer",
+                "name": "buf2",
+                "address": "rbp-0x50"
+            },
+            {
+                "bytes": 32,
+                "type": "buffer",
+                "name": "buf3",
+                "address": "rbp-0x30"
+            }
+        ],
+        "instructions": [
+            {
+                "op": "push",
+                "pos": 0,
+                "args": {
+                    "value": "rbp"
+                },
+                "address": "400567"
+            },
+            {
+                "op": "mov",
+                "pos": 1,
+                "args": {
+                    "dest": "rbp",
+                    "value": "rsp"
+                },
+                "address": "400568"
+            },
+            {
+                "op": "sub",
+                "pos": 2,
+                "args": {
+                    "dest": "rsp",
+                    "value": "0x70"
+                },
+                "address": "40056b"
+            },
+            {
+                "op": "mov",
+                "pos": 3,
+                "args": {
+                    "dest": "DWORD PTR [rbp-0x4]",
+                    "value": "0x1f"
+                },
+                "address": "40056f"
+            },
+            {
+                "op": "mov",
+                "pos": 4,
+                "args": {
+                    "dest": "rdx",
+                    "obs": "# 601040 <stdin@@GLIBC_2.2.5>",
+                    "value": "QWORD PTR [rip+0x200ac3]"
+                },
+                "address": "400576"
+            },
+            {
+                "op": "lea",
+                "pos": 5,
+                "args": {
+                    "dest": "rax",
+                    "value": "[rbp-0x70]"
+                },
+                "address": "40057d"
+            },
+            {
+                "op": "mov",
+                "pos": 6,
+                "args": {
+                    "dest": "esi",
+                    "value": "0x20"
+                },
+                "address": "400581"
+            },
+            {
+                "op": "mov",
+                "pos": 7,
+                "args": {
+                    "dest": "rdi",
+                    "value": "rax"
+                },
+                "address": "400586"
+            },
+            {
+                "op": "call",
+                "pos": 8,
+                "args": {
+                    "fnname": "<fgets@plt>",
+                    "address": "400480"
+                },
+                "address": "400589"
+            },
+            {
+                "op": "mov",
+                "pos": 9,
+                "args": {
+                    "dest": "rdx",
+                    "obs": "# 601040 <stdin@@GLIBC_2.2.5>",
+                    "value": "QWORD PTR [rip+0x200aab]"
+                },
+                "address": "40058e"
+            },
+            {
+                "op": "lea",
+                "pos": 10,
+                "args": {
+                    "dest": "rax",
+                    "value": "[rbp-0x50]"
+                },
+                "address": "400595"
+            },
+            {
+                "op": "mov",
+                "pos": 11,
+                "args": {
+                    "dest": "esi",
+                    "value": "0x20"
+                },
+                "address": "400599"
+            },
+            {
+                "op": "mov",
+                "pos": 12,
+                "args": {
+                    "dest": "rdi",
+                    "value": "rax"
+                },
+                "address": "40059e"
+            },
+            {
+                "op": "call",
+                "pos": 13,
+                "args": {
+                    "fnname": "<fgets@plt>",
+                    "address": "400480"
+                },
+                "address": "4005a1"
+            },
+            {
+                "op": "lea",
+                "pos": 14,
+                "args": {
+                    "dest": "rcx",
+                    "value": "[rbp-0x50]"
+                },
+                "address": "4005a6"
+            },
+            {
+                "op": "lea",
+                "pos": 15,
+                "args": {
+                    "dest": "rdx",
+                    "value": "[rbp-0x70]"
+                },
+                "address": "4005aa"
+            },
+            {
+                "op": "lea",
+                "pos": 16,
+                "args": {
+                    "dest": "rax",
+                    "value": "[rbp-0x30]"
+                },
+                "address": "4005ae"
+            },
+            {
+                "op": "mov",
+                "pos": 17,
+                "args": {
+                    "dest": "r8",
+                    "value": "rcx"
+                },
+                "address": "4005b2"
+            },
+            {
+                "op": "mov",
+                "pos": 18,
+                "args": {
+                    "dest": "rcx",
+                    "value": "rdx"
+                },
+                "address": "4005b5"
+            },
+            {
+                "op": "lea",
+                "pos": 19,
+                "args": {
+                    "dest": "rdx",
+                    "obs": "%s%s",
+                    "value": "[rip+0xa5]"
+                },
+                "address": "4005b8"
+            },
+            {
+                "op": "mov",
+                "pos": 20,
+                "args": {
+                    "dest": "esi",
+                    "value": "0x20"
+                },
+                "address": "4005bf"
+            },
+            {
+                "op": "mov",
+                "pos": 21,
+                "args": {
+                    "dest": "rdi",
+                    "value": "rax"
+                },
+                "address": "4005c4"
+            },
+            {
+                "op": "mov",
+                "pos": 22,
+                "args": {
+                    "dest": "eax",
+                    "value": "0x0"
+                },
+                "address": "4005c7"
+            },
+            {
+                "op": "call",
+                "pos": 23,
+                "args": {
+                    "fnname": "<snprintf@plt>",
+                    "address": "400470"
+                },
+                "address": "4005cc"
+            },
+            {
+                "op": "mov",
+                "pos": 24,
+                "args": {
+                    "dest": "eax",
+                    "value": "0x0"
+                },
+                "address": "4005d1"
+            },
+            {
+                "op": "leave",
+                "pos": 25,
+                "address": "4005d6"
+            },
+            {
+                "op": "ret",
+                "pos": 26,
+                "address": "4005d7"
+            }
+        ]
+    }
+}

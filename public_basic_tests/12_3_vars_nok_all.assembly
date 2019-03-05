@@ -1,0 +1,30 @@
+<main>
+4005b7:	push   rbp
+4005b8:	mov    rbp,rsp
+4005bb:	sub    rsp,0xe0
+4005c2:	mov    rdx,QWORD PTR [rip+0x200a77]        # 601040 <stdin@@GLIBC_2.2.5>
+4005c9:	lea    rax,[rbp-0xe0]
+4005d0:	mov    esi,0x40
+4005d5:	mov    rdi,rax
+4005d8:	call   4004d0 <fgets@plt>
+4005dd:	lea    rcx,[rbp-0xe0]
+4005e4:	lea    rax,[rbp-0xa0]
+4005eb:	mov    edx,0x20
+4005f0:	mov    rsi,rcx
+4005f3:	mov    rdi,rax
+4005f6:	call   4004b0 <strncpy@plt>
+4005fb:	lea    rcx,[rbp-0xe0]
+400602:	lea    rax,[rbp-0x80]
+400606:	mov    edx,0x40
+40060b:	mov    rsi,rcx
+40060e:	mov    rdi,rax
+400611:	call   4004b0 <strncpy@plt>
+400616:	lea    rdx,[rbp-0xa0]
+40061d:	lea    rax,[rbp-0x40]
+400621:	mov    rsi,rdx
+400624:	mov    rdi,rax
+400627:	call   4004c0 <strcpy@plt>
+40062c:	mov    eax,0x0
+400631:	leave
+400632:	ret
+

@@ -1,0 +1,18 @@
+[
+    {
+        "overflown_address": "rbp-0x10",
+        "fnname": "read",
+        "vuln_function": "main",
+        "address": "4004f7",
+        "vulnerability": "INVALIDACCS",
+        "overflow_var": "buf1"
+    },
+    {
+        "fnname": "read",
+        "vuln_function": "main",
+        "overflown_var": "control",
+        "vulnerability": "VAROVERFLOW",
+        "overflow_var": "buf1",
+        "address": "4004f7"
+    }
+]

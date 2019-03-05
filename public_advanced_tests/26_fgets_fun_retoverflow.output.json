@@ -1,0 +1,16 @@
+[
+    {
+        "vulnerability": "RBPOVERFLOW",
+        "overflow_var": "buf2",
+        "vuln_function": "fun1",
+        "address": "400581",
+        "fnname": "strcpy"
+    },
+    {
+        "vulnerability": "REPOVERFLOW",
+        "overflow_var": "buf2",
+        "vuln_function": "fun1",
+        "address": "400581",
+        "fnname": "strcpy"
+    }
+]

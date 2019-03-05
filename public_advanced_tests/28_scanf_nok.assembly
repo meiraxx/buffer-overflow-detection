@@ -1,0 +1,14 @@
+<main>
+400507:	push   rbp
+400508:	mov    rbp,rsp
+40050b:	sub    rsp,0x50
+40050f:	mov    DWORD PTR [rbp-0x4],0x1c
+400516:	lea    rax,[rbp-0x50]
+40051a:	mov    rsi,rax
+40051d:	lea    rdi,[rip+0xa0]        # 4005c4 <_IO_stdin_used+0x4>
+400524:	mov    eax,0x0
+400529:	call   400420 <__isoc99_scanf@plt>
+40052e:	mov    eax,0x0
+400533:	leave
+400534:	ret
+
